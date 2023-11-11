@@ -77,9 +77,9 @@ export class GenerateDart {
 
     const result: string[] = [];
     // 根据类型排序，复杂类型放在后面
-    const keys = Object.keys(json).sort((a, b) => {
+    const keys = Object.keys(json).sort((a) => {
       const typeA = typeof json[a];
-      const typeB = typeof json[b];
+      // const typeB = typeof json[b];
       if (typeA === "object") {
         return 1;
       }
