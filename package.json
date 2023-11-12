@@ -1,9 +1,8 @@
 {
   "name": "@bucai/json2dart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "main": "src/lib/generate.ts",
-  "module": "src/lib/generate.ts",
+  "main": "lib/generate.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -11,7 +10,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:lib": "tsc --project ./tsconfig.lib.json"
   },
   "dependencies": {
     "@codemirror/lang-json": "^6.0.1",
