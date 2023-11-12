@@ -1,9 +1,13 @@
 {
   "name": "@bucai/json2dart",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "src/lib/generate.ts",
   "module": "src/lib/generate.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
