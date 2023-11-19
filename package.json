@@ -1,31 +1,12 @@
 {
-  "name": "json2dart-doc",
-  "version": "0.0.3",
-  "type": "module",
+  "name": "@bucai/json2dart",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "build:lib": "tsc --project ./tsconfig.lib.json"
+    "build": ""
   },
   "dependencies": {
-    "@codemirror/lang-json": "^6.0.1",
-    "@codemirror/language": "^6.9.2",
-    "@codemirror/legacy-modes": "^6.3.3",
-    "@codemirror/state": "^6.3.1",
-    "@codemirror/theme-one-dark": "^6.1.2",
-    "codemirror": "^6.0.1",
-    "vue": "^3.3.4",
-    "vue-codemirror": "^6.1.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "sass": "^1.69.5",
-    "tailwindcss": "^3.3.5",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
+    "typescript": "^5.0.2"
   }
 }
