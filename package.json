@@ -1,12 +1,7 @@
 {
-  "name": "@bucai/json2dart",
-  "version": "0.0.2",
+  "name": "json2dart-doc",
+  "version": "0.0.3",
   "type": "module",
-  "main": "lib/generate.js",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
